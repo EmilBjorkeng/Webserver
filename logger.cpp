@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 
-#include "include/logger.h"
+#include "include/logger.hpp"
 
 Logger::Logger() : sessionID("") {
     // Default file

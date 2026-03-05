@@ -15,5 +15,4 @@ $(TARGET): $(OBJ)
 	${CC} $(CFLAGS) $^ $(TARGET).cpp  -o $@
 
 clean:
-	-rm -f $(TARGET) 2>nul || true
-	-rm -f *.o 2>nul || true
+	rm -f $(TARGET) *.o

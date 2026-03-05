@@ -3,9 +3,9 @@
 #include <arpa/inet.h>
 #include <iomanip>
 
-#include "include/server.h"
-#include "include/request.h"
-#include "include/logger.h"
+#include "include/server.hpp"
+#include "include/request.hpp"
+#include "include/logger.hpp"
 
 int main() {
     // DEBUG: Clear the log file at the start of the program

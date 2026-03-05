@@ -4,9 +4,9 @@
 #include <map>
 #include <algorithm>
 
-#include "include/server.h"
-#include "include/request.h"
-#include "include/logger.h"
+#include "include/server.hpp"
+#include "include/request.hpp"
+#include "include/logger.hpp"
 
 void HttpRequestHandler::processRequest(int client_socket, char *buffer, ssize_t bytes_received) {
     if (bytes_received >= BUFFER_SIZE - 1) {
