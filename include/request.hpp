@@ -1,5 +1,5 @@
-#ifndef __REQUEST_H__
-#define __REQUEST_H__
+#ifndef REQUEST_HPP
+#define REQUEST_HPP
 
 #include <unistd.h>
 #include <string>

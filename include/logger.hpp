@@ -1,5 +1,5 @@
-#ifndef __LOGGER_H__
-#define __LOGGER_H__
+#ifndef LOGGER_HPP
+#define LOGGER_HPP
 
 #include <fstream>
 #include <mutex>
